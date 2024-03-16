@@ -42,6 +42,16 @@ android {
 }
 
 dependencies {
+    implementation ("com.google.code.gson:gson:2.8.8")
+
+    implementation ("androidx.compose.foundation:foundation:1.0.0")
+
+    implementation("androidx.navigation:navigation-compose:2.4.0") // Verwenden Sie die aktuellste Version
+    implementation("com.google.android.material:material:1.4.0") // Material Design für Android
+    implementation("androidx.compose.material:material:1.0.1") // Compose Material Design
+
+
+
     implementation ("com.github.bumptech.glide:glide:4.13.0")
     annotationProcessor ("com.github.bumptech.glide:compiler:4.13.0")
     implementation("com.github.bumptech.glide:okhttp3-integration:4.13.0")
